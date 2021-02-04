@@ -30,4 +30,14 @@ fun main() {
     println(rebelVehicles)
     rebelVehicles.clear()
     println(rebelVehicles)
+
+    val courseMap = hashMapOf<String, Int>()
+
+    for(i in 1..10) {
+        if((courseMap.get("bla")?: 0) <= 5) {
+            courseMap.put("bla", (courseMap.get("bla")?: 0) + 1)
+        }
+    }
+
+    println(courseMap)
 }
