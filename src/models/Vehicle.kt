@@ -1,6 +1,8 @@
 package models
 
-open class Vehicle(val make: String, val model: String) {
+import interfaces.OnVehicleState
+
+abstract class Vehicle(val make: String, val model: String) : OnVehicleState {
     open fun accelerate() {
         println("vrooom")
     }

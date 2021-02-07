@@ -9,4 +9,12 @@ class Truck(make: String, model: String): Vehicle(make, model) {
     fun tow() {
         println("headed out to the mountains")
     }
+
+    override fun move() {
+        TODO("Not yet implemented")
+    }
+
+    override fun stop() {
+        TODO("Not yet implemented")
+    }
 }
