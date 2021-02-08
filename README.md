@@ -2,6 +2,9 @@
 
 ### A list of code examples
 
+#### Instalation
+This is a simple Intellij Project: you just have to clone the repo and open it.
+
 #### Concepts
 * [Hello World](src/HelloWorld.kt)
 * [Classes](src/Classes.kt)
