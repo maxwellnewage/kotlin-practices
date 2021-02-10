@@ -1,3 +1,5 @@
+package examples
+
 import kotlin.math.*
 
 fun main() {

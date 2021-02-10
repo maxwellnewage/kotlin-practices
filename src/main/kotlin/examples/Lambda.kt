@@ -1,3 +1,5 @@
+package examples
+
 import models.Car
 import models.Truck
 

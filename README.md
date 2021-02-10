@@ -6,29 +6,29 @@
 This is a simple Intellij Project: you just have to clone the repo and open it.
 
 #### Concepts
-* [Hello World](src/HelloWorld.kt)
-* [Classes](src/Classes.kt)
-* [Collections](src/Collections.kt)
-* [Conditions](src/Conditions.kt)
-* [Functions](src/Functions.kt)
-* [IntArraySum](src/IntArraySum.kt)
-* [Lambda](src/Lambda.kt)
-* [Loops](src/Loops.kt)
-* [Nullability](src/Nullability.kt)
-* [Numbers](src/Numbers.kt)
-* [Strings](src/Strings.kt)
-* [TypeCasting](src/TypeCasting.kt)
-* [Variables](src/Variables.kt)
+* [Hello World](src/main/kotlin/HelloWorld.kt)
+* [Classes](src/main/kotlin/Classes.kt)
+* [Collections](src/main/kotlin/Collections.kt)
+* [Conditions](src/main/kotlin/Conditions.kt)
+* [Functions](src/main/kotlin/Functions.kt)
+* [IntArraySum](src/main/kotlin/IntArraySum.kt)
+* [Lambda](src/main/kotlin/Lambda.kt)
+* [Loops](src/main/kotlin/Loops.kt)
+* [Nullability](src/main/kotlin/Nullability.kt)
+* [Numbers](src/main/kotlin/Numbers.kt)
+* [Strings](src/main/kotlin/Strings.kt)
+* [TypeCasting](src/main/kotlin/TypeCasting.kt)
+* [Variables](src/main/kotlin/Variables.kt)
 
 #### Components
-* [Button](src/components/Button.kt)
+* [Button](src/main/kotlin/components/Button.kt)
     * Interfaces
-        * [OnClickListener](src/interfaces/OnClickListener.java)
+        * [OnClickListener](src/main/kotlin/interfaces/OnClickListener.java)
 
 #### Models
-* [Vehicle](src/models/Vehicle.kt)
+* [Vehicle](src/main/kotlin/models/Vehicle.kt)
     * Interfaces
-        * [OnVehicleState](src/interfaces/OnVehicleState.kt)
+        * [OnVehicleState](src/main/kotlin/interfaces/OnVehicleState.kt)
     * Childs
-        * [Car](src/models/Car.kt)
-        * [Truck](src/models/Truck.kt)
+        * [Car](src/main/kotlin/models/Car.kt)
+        * [Truck](src/main/kotlin/models/Truck.kt)

@@ -1,3 +1,5 @@
+package examples
+
 import java.lang.Exception
 
 fun main() {

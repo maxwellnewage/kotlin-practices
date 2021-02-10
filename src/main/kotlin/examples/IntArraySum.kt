@@ -1,3 +1,5 @@
+package examples
+
 fun main() {
     val arr: IntArray = intArrayOf(1,1,1)
     var sumA = 0

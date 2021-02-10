@@ -1,3 +1,5 @@
+package examples
+
 fun main() {
     val imperials = listOf("Emperor", "Darth Vader", "Boba Fett", "Tarkin")
     println(imperials.sorted())

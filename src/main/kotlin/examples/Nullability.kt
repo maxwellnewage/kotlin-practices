@@ -1,3 +1,5 @@
+package examples
+
 fun main() {
     //Can not be null
     var name: String
