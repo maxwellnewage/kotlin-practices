@@ -19,6 +19,7 @@ This is a simple Intellij Project: you just have to clone the repo and open it.
 * [Strings](src/main/kotlin/examples/Strings.kt)
 * [TypeCasting](src/main/kotlin/examples/TypeCasting.kt)
 * [Variables](src/main/kotlin/examples/Variables.kt)
+* [Json encode & decode](src/main/kotlin/examples/Json.kt)
 
 #### Components
 * [Button](src/main/kotlin/components/Button.kt)
