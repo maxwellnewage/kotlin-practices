@@ -19,6 +19,8 @@ fun arrayListDemo() {
     println(imperials[0])
     println(imperials.last())
     println(imperials.contains("Emperor"))
+    // Alternatively:
+    println("Emperor" in imperials)
     println(imperials)
 
     val rebels = arrayListOf("Leiah", "Luke", "Han Solo", "Mon Mothma")
@@ -55,6 +57,17 @@ fun hashMapConditionDemo() {
     for(i in 1..10) {
         if((courseMap.get("bla")?: 0) <= 5) {
             courseMap.put("bla", (courseMap.get("bla")?: 0) + 1)
+        }
+    }
+
+    println(courseMap)
+
+    // Alternatively:
+    courseMap.clear()
+
+    repeat(10) {
+        if (courseMap.getOrDefault("bla", 0) <= 5) {
+            courseMap["bla"] = courseMap.getOrDefault("bla", 0) + 1
         }
     }
 

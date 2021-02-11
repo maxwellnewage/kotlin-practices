@@ -33,3 +33,4 @@ This is a simple Intellij Project: you just have to clone the repo and open it.
     * Childs
         * [Car](src/main/kotlin/models/Car.kt)
         * [Truck](src/main/kotlin/models/Truck.kt)
+* [Person](src/main/kotlin/models/Person.kt) (data class)
