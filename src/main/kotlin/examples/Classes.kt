@@ -1,3 +1,5 @@
+package examples
+
 import components.Button
 import models.Car
 import models.Person
@@ -13,6 +15,12 @@ fun main() {
     truck.accelerate()
 
     val okButton = Button("OK")
+
+    okButton.setOnClickListener(object: Button.OnClickListener {
+        override fun onClick() {
+            println("this is a click action!")
+        }
+    })
 
     // syntax for SAM interfaces is only possible when the interface is written in Java
     // or if using Kotlin 1.4+ the interface must be defined as a "fun interface"

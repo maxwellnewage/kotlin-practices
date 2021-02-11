@@ -1,3 +1,5 @@
+package examples
+
 import models.Person
 
 fun main() {

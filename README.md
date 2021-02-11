@@ -6,30 +6,31 @@
 This is a simple Intellij Project: you just have to clone the repo and open it.
 
 #### Concepts
-* [Hello World](src/HelloWorld.kt)
-* [Classes](src/Classes.kt)
-* [Collections](src/Collections.kt)
-* [Conditions](src/Conditions.kt)
-* [Functions](src/Functions.kt)
-* [IntArraySum](src/IntArraySum.kt)
-* [Lambda](src/Lambda.kt)
-* [Loops](src/Loops.kt)
-* [Nullability](src/Nullability.kt)
-* [Numbers](src/Numbers.kt)
-* [Strings](src/Strings.kt)
-* [TypeCasting](src/TypeCasting.kt)
-* [Variables](src/Variables.kt)
+* [Hello World](src/main/kotlin/examples/HelloWorld.kt)
+* [Classes](src/main/kotlin/examples/Classes.kt)
+* [Collections](src/main/kotlin/examples/Collections.kt)
+* [Conditions](src/main/kotlin/examples/Conditions.kt)
+* [Functions](src/main/kotlin/examples/Functions.kt)
+* [IntArraySum](src/main/kotlin/examples/IntArraySum.kt)
+* [Lambda](src/main/kotlin/examples/Lambda.kt)
+* [Loops](src/main/kotlin/examples/Loops.kt)
+* [Nullability](src/main/kotlin/examples/Nullability.kt)
+* [Numbers](src/main/kotlin/examples/Numbers.kt)
+* [Strings](src/main/kotlin/examples/Strings.kt)
+* [TypeCasting](src/main/kotlin/examples/TypeCasting.kt)
+* [Variables](src/main/kotlin/examples/Variables.kt)
+* [Json encode & decode](src/main/kotlin/examples/Json.kt)
+  * [Kotlin Serialization Library](https://github.com/Kotlin/kotlinx.serialization)
+* [Input console](src/main/kotlin/examples/Input.kt)
 
 #### Components
-* [Button](src/components/Button.kt)
-    * Interfaces
-        * [OnClickListener](src/interfaces/OnClickListener.java)
+* [Button](src/main/kotlin/components/Button.kt)
 
 #### Models
-* [Vehicle](src/models/Vehicle.kt)
+* [Vehicle](src/main/kotlin/models/Vehicle.kt)
     * Interfaces
-        * [OnVehicleState](src/interfaces/OnVehicleState.kt)
+        * [OnVehicleState](src/main/kotlin/interfaces/OnVehicleState.kt)
     * Childs
-        * [Car](src/models/Car.kt)
-        * [Truck](src/models/Truck.kt)
-* [Person](src/models/Person.kt) (data class)
+        * [Car](src/main/kotlin/models/Car.kt)
+        * [Truck](src/main/kotlin/models/Truck.kt)
+* [Person](src/main/kotlin/models/Person.kt) (data class)

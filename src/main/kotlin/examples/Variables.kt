@@ -1,3 +1,5 @@
+package examples
+
 fun main() {
     // unmutable variable
     val name: String = "Maxwell"

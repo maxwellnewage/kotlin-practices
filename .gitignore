@@ -2,3 +2,5 @@
 /out/production/
 
 *.class
+/build/
+/.gradle/

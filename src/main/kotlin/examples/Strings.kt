@@ -1,3 +1,5 @@
+package examples
+
 fun main() {
     val str = "This is a\ngreat string."
     println(str)
