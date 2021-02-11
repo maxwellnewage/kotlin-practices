@@ -17,4 +17,9 @@ fun main() {
         println(x)
         x--
     }
+
+    // Alternatively:
+    for (num in 10 downTo 0) {
+        println(num)
+    }
 }

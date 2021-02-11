@@ -32,3 +32,4 @@ This is a simple Intellij Project: you just have to clone the repo and open it.
     * Childs
         * [Car](src/models/Car.kt)
         * [Truck](src/models/Truck.kt)
+* [Person](src/models/Person.kt) (data class)
