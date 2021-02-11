@@ -7,7 +7,7 @@ import kotlinx.serialization.json.Json
 import models.Person
 
 fun main() {
-    val person = Person("Maxwell", "Tompson")
+    val person = Person("Maxwell", "Tompson", 25)
     val encodeToString = Json.encodeToString(person)
     println(encodeToString)
     val obj = Json.decodeFromString<Person>(encodeToString)

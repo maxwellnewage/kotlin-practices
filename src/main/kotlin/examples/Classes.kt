@@ -27,9 +27,9 @@ fun main() {
     //
     // https://stackoverflow.com/questions/56557625/how-can-i-call-an-interface-in-kotlin
     // https://kotlinlang.org/docs/reference/whatsnew14.html#sam-conversions-for-kotlin-interfaces
-    okButton.setOnClickListener {
-        println("this is a click action!")
-    }
+//    okButton.setOnClickListener {
+//        println("this is a click action!")
+//    }
 
     okButton.press()
 
