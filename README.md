@@ -20,6 +20,7 @@ This is a simple Intellij Project: you just have to clone the repo and open it.
 * [TypeCasting](src/main/kotlin/examples/TypeCasting.kt)
 * [Variables](src/main/kotlin/examples/Variables.kt)
 * [Json encode & decode](src/main/kotlin/examples/Json.kt)
+* [Input console](src/main/kotlin/examples/Input.kt)
 
 #### Components
 * [Button](src/main/kotlin/components/Button.kt)
