@@ -6,7 +6,7 @@ fun main() {
     forDemo()
 }
 
-fun forDemo() {
+private fun forDemo() {
     // 0 to 10
     for(i in 0..10) {
         println("Number is $i")
@@ -34,7 +34,7 @@ fun forDemo() {
     }
 }
 
-fun whileDemo() {
+private fun whileDemo() {
     var x = 10
 
     while (x > 0) {
@@ -43,7 +43,7 @@ fun whileDemo() {
     }
 }
 
-fun rebelsDemo() {
+private fun rebelsDemo() {
     val rebels = arrayListOf("Leiah", "Luke", "Han Solo", "Mon Mothma")
 
     val rebelVehicles = hashMapOf("Solo" to "Millenium Falcon", "Luke" to "Landspeeder", "Boba Fett" to "Rocket Pack")
