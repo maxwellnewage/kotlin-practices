@@ -13,7 +13,7 @@ fun main() {
     dataClassDemo()
 }
 
-fun dataClassDemo() {
+private fun dataClassDemo() {
     // Classes that are just meant to hold data can be defined as "data classes". They get a copy() function
     // plus toString() and other niceties.
     val johnDoe = Person("John", "Doe", 35)
@@ -23,7 +23,7 @@ fun dataClassDemo() {
     println("It's John's birthday! He used to be $johnDoe but is now $olderJohnDoe!")
 }
 
-fun classesDemo() {
+private fun classesDemo() {
     val tesla = Car("Tesla", "A-45", "Red")
     tesla.move()
     tesla.accelerate()
@@ -33,7 +33,7 @@ fun classesDemo() {
     truck.accelerate()
 }
 
-fun compontentButtonDemo() {
+private fun compontentButtonDemo() {
     val okButton = Button("OK")
 
     okButton.setOnClickListener(object: Button.OnClickListener {
@@ -45,7 +45,7 @@ fun compontentButtonDemo() {
     okButton.press()
 }
 
-fun SAMDemo() {
+private fun SAMDemo() {
     // syntax for SAM interfaces is only possible when the interface is written in Java
     // or if using Kotlin 1.4+ the interface must be defined as a "fun interface"
     //
