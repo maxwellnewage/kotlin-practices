@@ -1,15 +1,22 @@
 package examples
 
 fun main() {
-    val a = 2
-    val b = 2
+    ifBasicDemo()
+    ifComparatorsDemo()
+    whenDemo()
+}
 
-    if(a == b) {
-        println("A is equal B")
-    } else {
-        print("A is not equal B")
+private fun whenDemo() {
+    val x = 1
+
+    when(x) {
+        1 -> println("X is one")
+        2 -> println("X is two")
+        else -> println("X is an error")
     }
+}
 
+private fun ifComparatorsDemo() {
     val balance = 100
     val price = 50
 
@@ -28,12 +35,15 @@ fun main() {
     } else {
         println("Holy crap its cold!")
     }
+}
 
-    val x = 1
+private fun ifBasicDemo() {
+    val a = 2
+    val b = 2
 
-    when(x) {
-        1 -> println("X is one")
-        2 -> println("X is two")
-        else -> println("X is an error")
+    if(a == b) {
+        println("A is equal B")
+    } else {
+        print("A is not equal B")
     }
 }
