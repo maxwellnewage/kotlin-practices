@@ -7,13 +7,13 @@ fun main() {
     listRemoveIfDemo()
 }
 
-fun listRemoveIfDemo() {
+private fun listRemoveIfDemo() {
     val cars = arrayListOf("BMW", "Fake Car", "Ferrari", "Ford")
     cars.removeIf { it == "Fake Car" }
     println(cars)
 }
 
-fun arrayListDemo() {
+private fun arrayListDemo() {
     val imperials = listOf("Emperor", "Darth Vader", "Boba Fett", "Tarkin")
     println(imperials.sorted())
     println(imperials[0])
@@ -34,7 +34,7 @@ fun arrayListDemo() {
     println(rebels)
 }
 
-fun hashMapDemo() {
+private fun hashMapDemo() {
     val rebelVehiclesMap = mapOf("Solo" to "Millenium Falcon", "Luke" to "Landspeeder")
     println(rebelVehiclesMap["Solo"])
     println(rebelVehiclesMap.get("Solo"))
@@ -51,7 +51,7 @@ fun hashMapDemo() {
     println(rebelVehicles)
 }
 
-fun hashMapConditionDemo() {
+private fun hashMapConditionDemo() {
     val courseMap = hashMapOf<String, Int>()
 
     for(i in 1..10) {
