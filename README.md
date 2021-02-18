@@ -54,6 +54,10 @@ This is a simple Intellij Project: you just have to clone the repo and open it.
 * [Generic Class](src/main/kotlin/examples/GenericClass.kt)
     * instances with different type parameters
     * deconstruction declarations
+* [Delegation](src/main/kotlin/examples/Delegation.kt)
+    * lazy
+    * observable
+    * notNull
 
 #### Components
 * [Button](src/main/kotlin/components/Button.kt)
