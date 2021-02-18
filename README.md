@@ -52,6 +52,8 @@ This is a simple Intellij Project: you just have to clone the repo and open it.
 * [Input console](src/main/kotlin/examples/Input.kt)
     * readLine with split string
 * [Generic Class](src/main/kotlin/examples/GenericClass.kt)
+    * instances with different type parameters
+    * deconstruction declarations
 
 #### Components
 * [Button](src/main/kotlin/components/Button.kt)
