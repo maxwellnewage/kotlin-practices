@@ -1,9 +1,20 @@
 package examples
 
 fun main() {
-    ifBasicDemo()
-    ifComparatorsDemo()
-    whenDemo()
+//    ifBasicDemo()
+//    ifComparatorsDemo()
+//    whenDemo()
+    whenTypesDemo(3324324234324)
+}
+
+fun whenTypesDemo(obj: Any) {
+    when (obj) {
+        1 -> println("One")
+        "Hello" -> println("Greeting")
+        is Long -> println("Long")
+        !is String -> println("Not a string")
+        else -> println("Unknown")
+    }
 }
 
 private fun whenDemo() {
