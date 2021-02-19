@@ -58,6 +58,7 @@ This is a simple Intellij Project: you just have to clone the repo and open it.
     * lazy
     * observable
     * notNull
+* [Companion Objects](src/main/kotlin/examples/Companion.kt)
 
 #### Components
 * [Button](src/main/kotlin/components/Button.kt)
