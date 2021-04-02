@@ -5,7 +5,8 @@
 #### Instalation
 This is a simple Intellij Project: you just have to clone the repo and open it.
 
-#### [Daily Interview Pro Challenges](src/main/kotlin/challenges)
+#### Practices
+* [Daily Interview Pro Challenges](src/main/kotlin/challenges)
 
 #### Concepts
 * [Hello World](src/main/kotlin/examples/HelloWorld.kt)
