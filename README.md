@@ -62,7 +62,9 @@ This is a simple Intellij Project: you just have to clone the repo and open it.
     * observable
     * notNull
 * [Companion Objects](src/main/kotlin/examples/Companion.kt)
-
+* [Data Structures](src/main/kotlin/examples/DataStructures.kt)
+    * nodes
+  
 #### Components
 * [Button](src/main/kotlin/components/Button.kt)
     * Functions
