@@ -1,4 +1,4 @@
-package examples
+package examples.data_structures
 
 import models.Book
 
@@ -7,13 +7,9 @@ private data class BookNode(val book: Book, var next: BookNode? = null)
 private var header: BookNode? = null
 private var bookCounter = 0
 
-fun main() {
-    bookDemo()
-}
-
 // Example inspired in this Youtube Video:
 // https://www.youtube.com/watch?v=TjlPQPRfWFk&t=118s&ab_channel=makigas%3Atutorialesdeprogramaci%C3%B3n
-private fun bookDemo() {
+fun main() {
     createBook(Book("Book 1", "Author 1", "1234ABC"))
 
     createBookInPos(Book("Book 2", "Author 2", "1234ABC"), 1)
