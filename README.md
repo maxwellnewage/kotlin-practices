@@ -64,6 +64,7 @@ This is a simple Intellij Project: you just have to clone the repo and open it.
 * [Companion Objects](src/main/kotlin/examples/Companion.kt)
 * [Data Structures](src/main/kotlin/examples/data_structures)
     * nodes
+    * queues
   
 #### Components
 * [Button](src/main/kotlin/components/Button.kt)
