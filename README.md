@@ -65,6 +65,7 @@ This is a simple Intellij Project: you just have to clone the repo and open it.
 * [Data Structures](src/main/kotlin/examples/data_structures)
     * nodes
     * queues
+    * stacks
   
 #### Components
 * [Button](src/main/kotlin/components/Button.kt)
