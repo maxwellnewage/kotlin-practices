@@ -66,6 +66,11 @@ This is a simple Intellij Project: you just have to clone the repo and open it.
     * nodes
     * queues
     * stacks
+    * binary tree
+      * preOrder
+      * inOrder
+      * posOrder
+        
   
 #### Components
 * [Button](src/main/kotlin/components/Button.kt)
