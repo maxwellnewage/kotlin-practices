@@ -7,3 +7,7 @@
 
 ### Uber
 * [You have a landscape, in which puddles can form. You are given an array of non-negative integers representing the elevation at each location. Return the amount of water that would accumulate if it rains.](uber/challenge_1.kt)
+
+### Codewars
+* [Create a function that takes a Roman numeral as its argument and returns its value as a numeric decimal integer.](codewars/romannumerals.kt)
+    * [Collaborator: alexander171294](https://github.com/alexander171294)
