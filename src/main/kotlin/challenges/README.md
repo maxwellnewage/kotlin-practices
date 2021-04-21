@@ -11,3 +11,4 @@
 ### Codewars
 * [Create a function that takes a Roman numeral as its argument and returns its value as a numeric decimal integer.](codewars/romannumerals.kt)
     * [Collaborator: alexander171294](https://github.com/alexander171294)
+* [Reverse or rotate?](codewars/reverse_or_rotate.kt)
