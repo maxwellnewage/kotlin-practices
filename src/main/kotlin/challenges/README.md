@@ -13,3 +13,4 @@
     * [Collaborator: alexander171294](https://github.com/alexander171294)
 * [Reverse or rotate?](codewars/reverse_or_rotate.kt)
 * [Find short size of word](codewars/find_short.kt)
+* [Predict Your Age](codewars/predict_your_age.kt)
